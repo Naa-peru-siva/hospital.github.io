@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" href="https://i.ibb.co/kmjBxLh/Tastes-2.png">
+    <title>Tastes</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tastes.css">
+    <script src="tastes.js"></script>
+</head>
+<body>
+    <header>
+        <div id="mobileheader">
+        <svg id="menubutton" xmlns="http://www.w3.org/2000/svg" width="8vw" height="8vw" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+</svg>
+        <img id="mlogo" src="https://i.ibb.co/t3gB84K/Tastes-1-removebg-preview.png" alt="logo">
+        <nav id="mnav">
+            <ul>
+                <li class="nav-link" data-target="#content1">Home</li>
+                <li class="nav-link" data-target="#content2">About</li>
+                <li class="nav-link" data-target="#content3">Contact</li>
+            </ul>
+        </nav>
+        </div>
+        <div id="desktopheader">
+        <img id="dlogo" src="https://i.ibb.co/t3gB84K/Tastes-1-removebg-preview.png" alt="logo">
+        <nav>
+            <ul>
+                <li class="nav-link" data-target="#content1">Home</li>
+                <li class="nav-link" data-target="#content2">About</li>
+                <li class="nav-link" data-target="#content3">Contact</li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <main>
+        <section id="content1" class="content">
+            <article id="intro">
+                <center id="boxbuttoncombo">
+                    <h1 id="ih"><span class="parts">Discover</span><span class="parts">the</span><span class="parts">Tastes...</span></h1>
+                    <div id="inpsea">
+                        <input type="text" id="searchBox" placeholder="Search items or places...">
+                        &nbsp;<button id="searchButton"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-search-heart" viewBox="0 0 16 16"> <path d="M6.5 4.482c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.69 0-5.018"/> <path d="M13 6.5a6.47 6.47 0 0 1-1.258 3.844q.06.044.115.098l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1-.1-.115h.002A6.5 6.5 0 1 1 13 6.5M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11"/> </svg></button>
+                        </div>                    
+                    <div id="not-found">Not found ☹️</div>
+                </center>
+            </article>                                                                               
+            <section id="items">                                
+                <article id="mexbro"class="item">
+                    <div class="photoheading">
+                         <img class="itemphoto" src="https://i.ibb.co/XLw5pTt/IMG-20240701-195124.jpg" alt="item"><h3 class="mih">MEXICAN BROWNI</h3>
+                    </div>                   
+                    <div class="details">
+                        <h3 class="dih">MEXICAN BROWNI</h3>
+                        <ul>                            <li><strong>Place:</strong> lassi corner</li>
+                            <li><strong>Cost:</strong> Rs.80</li>
+                            <li><strong>Location:</strong> near gandhi bomma, beside sai ram book centre, Gudur, Andhra Pradesh 524101</li>
+                        </ul>                                  
+                    </div>
+                </article>
+            <article class="item">
+                    <div class="photoheading">
+                         <img class="itemphoto" src="https://i.ibb.co/9cQPjC5/IMG-20240701-194435.jpg" alt="item"><h3 class="mih">CUTLET</h3>
+                    </div>                   
+                    <div class="details">
+                        <h3 class="dih">CUTLET</h3>
+                        <ul>                            <li><strong>Place:</strong> paani poori cart</li>
+                            <li><strong>Cost:</strong> Rs.40</li>
+                            <li><strong>Location:</strong> near YSR statue, Gudur, Andhra Pradesh 524101</li>
+                        </ul>                                  
+                    </div>
+                </article>            
+                <article class="item">
+                    <div class="photoheading">
+                         <img class="itemphoto" src="https://i.ibb.co/wCjCKpV/IMG-20240630-103039.jpg" alt="item"><h3 class="mih">KAARAM DOSA</h3>
+                    </div>                   
+                    <div class="details">
+                        <h3 class="dih">KAARAM DOSA</h3>
+                        <ul>
+                            <li><strong>Place:</strong> kaamakshi tiffins</li>
+                            <li><strong>Cost:</strong> Rs.25</li>
+                            <li><strong>Location:</strong> beside NTR statue, near TDP office, Gamallapalem, Gudur, Andhra Pradesh 524101</li>
+                        </ul>                                  
+                    </div>
+                </article>
+                <article class="item">
+                    <div class="photoheading">
+                    <img class="itemphoto" src="https://i.ibb.co/VwRL6xn/IMG-20240118-200445.jpg" alt="item"><h3 class="mih">CHOCOLATE MILKSHAKE</h3>
+                    </div>
+                    <div class="details">
+                        <h3 class="dih">CHOCOLATE MILKSHAKE</h3>
+                        <ul>
+                            <li><strong>Place:</strong> lassi corner</li>
+                            <li><strong>Cost:</strong> Rs.60</li>
+                            <li><strong>Location:</strong> <a href="https://maps.app.goo.gl/CE29Rsd9SrWcrJvD8">4, 45C, Sivalayam St, opp. DRW College, Brahmin Street, Gudur, Andhra Pradesh 524101</a></li>
+                        </ul>     
+                    </div>
+                </article>
+                <article id="gobnoo" class="item">
+                    <div class="photoheading">
+                    <img class="itemphoto" src="https://i.ibb.co/5xTnbQm/IMG-20240625-190023.jpg" alt="item"><h3 class="mih">GOBI NOODLES</h3></div>
+                    <div class="details">
+                        <h3 class="dih">GOBI NOODLES</h3>
+                        <ul>
+                            <li><strong>Place:</strong> moonlight</li>
+                            <li><strong>Cost:</strong> Rs.70</li>
+                            <li><strong>Location:</strong> near z.p school, Gudur, Andhra Pradesh 524101</li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="item">
+                    <div class="photoheading">
+                    <img class="itemphoto" src="https://i.ibb.co/VxL6gBW/IMG-20240630-211656.jpg" alt="item"><h3 class="mih">BADAM KHEER</h3></div>
+                    <div class="details">
+                        <h3 class="dih">BADAM KHEER</h3>
+                        <ul>
+                            <li><strong>Place:</strong> ysr cool drinks</li>
+                            <li><strong>Cost:</strong> Rs.60</li>
+                            <li><strong>Location:</strong> <a href="https://maps.app.goo.gl/DvRPEuCNwm8pdaP26">near VRC centre, Somasekara Puram, Nellore, Andhra Pradesh 524001</a></li>
+                        </ul>
+                    </div>
+                </article> 
+                <article class="item">
+                    <div class="photoheading">
+                    <img class="itemphoto" src="https://i.ibb.co/2grygh9/IMG-20240625-111957.jpg" alt="item"><h3 class="mih">BIRIYANI</h3></div>
+                    <div class="details">
+                        <h3 class="dih">BIRIYANI</h3>
+                        <ul>
+                            <li><strong>Place:</strong> club10 (mangalam branch)</li>
+                            <li><strong>Cost:</strong> Rs.130</li>
+                            <li><strong>Location:</strong> <a href="https://maps.app.goo.gl/PefL2mNFeMPjE26P8">Karakambadi Rd, Mangalam, Tirupati, Andhra Pradesh 517501</a></li>
+                        </ul>
+                    </div>
+                </article>                
+                <article class="item">
+                    <div class="photoheading">
+                    <img class="itemphoto" src="https://i.ibb.co/Cwg2Drw/IMG-20240625-114342.jpg" alt="item"><h3 class="mih">MOCTAILS</h3></div>
+                    <div class="details">
+                        <h3 class="dih">MOCTAILS</h3>
+                        <ul>
+                            <li><strong>Place:</strong> mazili</li>
+                            <li><strong>Cost:</strong> Rs.99</li>
+                            <li><strong>Location:</strong> <a href="https://maps.app.goo.gl/CE29Rsd9SrWcrJvD8">Indiranagar, Sullurupeta, Andhra Pradesh 524121</a></li>
+                        </ul>                        
+                    </div>
+                </article>                             
+                <article class="item">
+                    <div class="photoheading">
+                    <img class="itemphoto" src="https://i.ibb.co/WW00rDR/IMG-20240630-104031.jpg" alt="item"><h3 class="mih">TEA</h3></div>
+                    <div class="details">
+                        <h3 class="dih">TEA</h3>
+                        <ul>                            <li><strong>Place:</strong> indian tea centre</li>
+                            <li><strong>Cost:</strong> Rs.10</li>
+                            <li><strong>Location:</strong> near railway station, B.V Nagar, E.V. Nagar, Gudur, Andhra Pradesh 524101</a></li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="item">
+                    <div class="photoheading">
+                    <img class="itemphoto" src="https://i.ibb.co/KGX0HbK/IMG-20240629-202839.jpg" alt="item"><h3 class="mih">WATERMELON JUICE</h3></div>
+                    <div class="details">
+                        <h3 class="dih">WATERMELON JUICE</h3>
+                        <ul>
+                            <li><strong>Place:</strong> Himalaya juice</li>
+                            <li><strong>Cost:</strong> Rs.30</li>
+                            <li><strong>Location:</strong> near DNR hall, market road, Gudur, Andhra Pradesh 524101</a></li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="item">
+                    <div class="photoheading">
+                    <img class="itemphoto" src="https://i.ibb.co/xzyysdg/IMG-20240630-103528.jpg" alt="item"><h3 class="mih">CHICKEN PAKODI</h3></div>
+                    <div class="details">
+                        <h3 class="dih">CHICKEN PAKODI</h3>
+                        <ul>
+                            <li><strong>Place:</strong> bismilla mubarak hyderabad biriyani centre</li>
+                            <li><strong>Cost:</strong> Rs.40</li>
+                            <li><strong>Location:</strong> <a href="https://maps.app.goo.gl/P4xxT7zkVjZJg9bC8">near railway station, gandhimuncipal buildings shop no13mutyalapeta, Gudur, Andhra Pradesh 524101</a></li>
+                        </ul>                       
+                    </div>
+                </article>
+                <article class="item">
+                    <div class="photoheading">
+                    <img class="itemphoto" src="https://i.ibb.co/w4PKzPZ/IMG-20240625-113643.jpg" alt="item"><h3 class="mih">BIRIYANI</h3>
+                    </div>
+                    <div class="details">
+                        <h3 class="dih">BIRIYANI</h3>
+                        <ul>
+                            <li><strong>Place:</strong> ss hyderabad</li>
+                            <li><strong>Cost:</strong> from Rs.250 - Rs.350</li>
+                            <li><strong>Location:</strong> <a href="https://maps.app.goo.gl/ncbumTphsga5ZJxt8?g_st=aw">No 57, Bangalore Highway Road, Near to Hyundai Car Company, Irungattukottai, Sriperumbudur, Tamil Nadu 602117</a></li>
+                        </ul>                       
+                    </div>
+                </article>
+                <article class="item">
+                    <div class="photoheading">
+                    <img class="itemphoto" src="https://i.ibb.co/pfNm1dM/IMG-20240630-103450.jpg" alt="item"><h3 class="mih">EGG DOSA</h3></div>
+                    <div class="details">
+                        <h3 class="dih">EGG DOSA</h3>
+                        <ul>
+                            <li><strong>Place:</strong> baskar egg dosa factory</li>
+                            <li><strong>Cost:</strong> Rs.40</li>
+                            <li><strong>Location:</strong> <a href="https://maps.app.goo.gl/tVDtuLB7M82RFNxM7">Kataraja Street Sundar Mahal Center, Gudur, Andhra Pradesh 524101</a></li>
+                        </ul>                        
+                    </div>
+                </article>
+                <article class="item">
+                    <div class="photoheading">
+                    <img class="itemphoto" src="https://i.ibb.co/gZLM00m/IMG-20240704-125847.jpg" alt="item"><h3 class="mih">BIRIYANI</h3></div>
+                    <div class="details">
+                        <h3 class="dih">BIRIYANI</h3>
+                        <ul>
+                                                        <li><strong>Place:</strong> bismilla mubarak hyderabad biriyani centre</li>
+                            <li><strong>Cost:</strong> Rs.110</li>
+                            <li><strong>Location:</strong> <a href="https://maps.app.goo.gl/P4xxT7zkVjZJg9bC8">near railway station, gandhimuncipal buildings shop no13mutyalapeta, Gudur, Andhra Pradesh 524101</a></li>
+                        </ul>                        
+                    </div>
+                </article>
+            </section>
+            <br>
+            <article id="recommended">
+                <h3 id="r">Recommended Items</h3>
+                <div id="slide">
+                    <div class="back">
+                        <h4 class="front">mexican brownie</h4>
+                        <a href="#mexbro"><img  src="https://i.ibb.co/L87rtrD/IMG-20240704-141946.jpg" alt="food item pic"></a>                        
+                    </div>
+                    <div class="back">
+                        <h4 class="front">gobi noodles</h4>                                        
+                        <a
+                         href="#gobnoo"><img src="https://i.ibb.co/KWSt7vp/IMG-20240704-143455.jpg" alt="food item pic"></a> 
+                    </div>
+                </div>   
+            </article> 
+            <br><br>          
+            <section id="end">
+                <h3>Let us know your favourite items...<br>
+                <div style="display:flex; justify-content: center;">please mail us&nbsp;<div id="down">👇🏼</div></div></h3>
+                <a id="hommai" href="mailto: sivasankarkalthireddy1@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" width="3rem" height="3rem" fill="currentColor" class="bi bi-envelope-paper-heart" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v1.133l.941.502A2 2 0 0 1 16 5.4V14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5.4a2 2 0 0 1 1.059-1.765L2 3.133zm0 2.267-.47.25A1 1 0 0 0 1 5.4v.817l1 .6zm1 3.15 3.75 2.25L8 8.917l1.25.75L13 7.417V2a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1zm11-.6 1-.6V5.4a1 1 0 0 0-.53-.882L14 4.267zM8 2.982C9.664 1.309 13.825 4.236 8 8 2.175 4.236 6.336 1.31 8 2.982m7 4.401-4.778 2.867L15 13.117zm-.035 6.88L8 10.082l-6.965 4.18A1 1 0 0 0 2 15h12a1 1 0 0 0 .965-.738ZM1 13.116l4.778-2.867L1 7.383v5.734Z"/>
+</svg><br>tastesfoodinfo@gmail.com</a>
+            </section>
+            <span id="instantscroll">Go <svg id="upicon" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"/> </svg></span>
+        </section>
+        
+        <section id="content2" class="content">
+            <h1>About</h1> 
+            <article style="color: white">
+                <p>Welcome to Tastes, your ultimate guide to discovering the best food items and places around you. Our mission is to provide you with detailed information on various delicious dishes and the best places to find them, ensuring you never miss out on a great culinary experience. Whether you're looking for the perfect chocolate milkshake or the best biryani in town, we've got you covered. It's about listing the food items which seems tasteful to people and liked by them.</p>
+            <p>
+                The details provided are place, cost and location. The location detail actually consists of link to google maps for redirection only if that particular place is available in google maps network.
+            </p>
+            <p>We believe that food is not just about taste, but also about the experience and the memories it creates. That's why we go beyond just listing places; we provide you with insights and details that help you make informed choices about where to eat and what to try next.</p>
+            <p>Join us on this flavorful journey and let's discover the tastes together!</p>
+            </article>
+            <article id="contributors">
+              <h2 color="orange">contributors</h2>
+              <a href="https://www.linkedin.com/in/kousic-chakka-539233261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Ch.kousic</a>
+              <a href="https://www.linkedin.com/in/chandra-sekhar-kalthireddy-46b39224a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">K.Chandra Sekhar</a>
+              <a href="https://www.linkedin.com/in/sk-waseem-akram-942666273?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Sk.Waseem Akram</a>
+              <a href="https://www.linkedin.com/in/mohith-gowd-5bb88125b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">P.Mohith</a>
+              <a href="">Sk.Nizamuddin</a>
+            </article>  
+            <br>
+            <center>
+                <h1>THANKS FOR VISTING</h1>
+                <img id="aboutsectionlogo" src="https://i.ibb.co/t3gB84K/Tastes-1-removebg-preview.png" alt="logo">
+            </center>            
+        </section>
+        
+        <section id="content3" class="content">
+            <h1>Contact</h1>
+            <div style="color: white">
+                <p>If you have any questions, suggestions, or simply want to share your favorite food items with us, we'd love to hear from you. Feel free to reach out to us via email, and we'll get back to you as soon as possible.</p>
+            <p class="condet"><img width="16rem" src="https://i.ibb.co/wd3XMvC/Gmail-logo-design-on-transparent-background-PNG.png" alt="mail logo">&nbsp;Email: <a class="conmai" href="mailto:sivasankarkalthireddy1@gmail.com">&nbsp;sivasankarkalthireddy1@gmail.com</a></p>
+            <p class="condet"><img width="16em" src="https://i.ibb.co/vPy03Zx/Whatsapp-logo-vector-png-3.png" alt="whatsapp logo">&nbsp;Whats app: <a class="conmai" href="https://wa.me/6281635622">&nbsp;+91 6281635622</a></p>
+            <p>Follow us on our social media channels to stay updated with the latest food trends and recommendations.</p>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+            <p>&copy; 2024 Tastes. All rights reserved.</p>
+    </footer>
+</body>
+</html>
