@@ -20,15 +20,11 @@ input::placeholder {
     }
     
    #desktopheader {
-    position: fixed;
-    z-index: 3;
     display: flex;
     align-items: center;    
     padding-left: 10vw;
-    top: 3vw;
-    background: rgba(0,0,0,0.4);
-    width: 100%;
-    box-shadow: 0 0 1vw rgba(0,0,0,0.4);
+    margin-top: 3vw;
+    width: auto;
    } 
    
    #dlogo {
@@ -38,7 +34,8 @@ input::placeholder {
     display: flex;
     font-size: 1.4vw;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 20vw;
+    font-weight: bold;
 }
 
     nav > ul {
@@ -74,7 +71,7 @@ nav > ul > li:nth-child(1),li:nth-child(2) {
 }
 
     main {
-        margin: 16vw 3vw 3vw;
+        margin: 3vw;
         flex: 1;
         animation: opacity 2s ease-out forwards;
     }
@@ -228,6 +225,12 @@ nav > ul > li:nth-child(1),li:nth-child(2) {
                1.5px -1.5px 0 orange,
                 -1.5px 1.5px 0 orange,
                 1.5px 1.5px 0 orange;
+}
+
+footer {
+    text-align: center;
+    font-size: 1vw;
+    margin-bottom: 10px;
 }
 
 
@@ -475,6 +478,12 @@ nav > ul > li:nth-child(1),li:nth-child(2) {
     width: 5vw;
 }
 
+footer {
+    text-align: center;
+    font-size: 3vw;
+    margin-bottom: 10px;
+}
+
 
 }
 
@@ -515,12 +524,6 @@ a {
         
 #searchResult {
     margin-top: 2vw;
-}
-
-footer {
-    text-align: center;
-    font-size: 1vw;
-    margin-bottom: 10px;
 }
 
 #hommai:hover {
